@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTest]">
+  <test thread-count="5" name="SmokeTest1(failed)">
+    <classes>
+      <class name="TestNgProject1.TestNgProject1.Tests.LoginTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- TestNgProject1.TestNgProject1.Tests.LoginTest -->
+    </classes>
+  </test> <!-- SmokeTest1(failed) -->
+</suite> <!-- Failed suite [SmokeTest] -->

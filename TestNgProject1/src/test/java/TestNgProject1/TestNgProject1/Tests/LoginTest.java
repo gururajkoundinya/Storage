@@ -34,6 +34,15 @@ public class LoginTest extends LoginPage
 		Assert.assertTrue(p.contains("Test"),"some thing went worng");
 	}
 
+	
+	@Test(description="clicking the iteam form yahoo page")
+	public void test3()
+	{
+		navigatetoLoginPage();
+		String p= validlogin(TestDatas.username1,TestDatas.password1);
+		Assert.assertTrue(p.contains("Test"),"some thing went worng");
+	}
+	
 	@AfterMethod
 	public void teardown()
 	{

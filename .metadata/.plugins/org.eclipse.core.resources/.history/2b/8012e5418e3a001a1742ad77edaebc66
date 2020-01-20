@@ -1,0 +1,16 @@
+package TestNgProject1.TestNgProject1.utilites;
+
+public class TestDatas 
+{
+	public static String username1="testuser2020Jan";
+	public static String username2="gururajkoundinya83@yahoo.com";
+	public static String password1="P@ssw0rd@123";
+	
+	public static String browsername1="chrome";
+	public static String browsername2="firefox";
+	public static String browsername3="andriodBrowser";
+	
+	public static String baseurl="https://in.yahoo.com/";
+	
+	
+}
